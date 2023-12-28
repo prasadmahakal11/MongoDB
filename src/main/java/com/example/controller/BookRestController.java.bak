@@ -22,12 +22,6 @@ public class BookRestController {
 	@Autowired
 	private BookRepository repository;
 
-//Task 102
-
-public void show(){
-	
-}
-
 	
 	@GetMapping("/show")
 	public ResponseEntity<String>show()
